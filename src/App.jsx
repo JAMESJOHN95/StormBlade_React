@@ -1,6 +1,9 @@
 import './App.css'
-import Navbar from './componants/Navbar'
+import Header from './componants/Navbar'
+import Content from './componants/Content'
 import './index.css'
+import Footer from './componants/Footer'
+
 
 
 
@@ -8,7 +11,9 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    <Header/>
+    <Content/>
+    <Footer/>
     </>
   )
 }
